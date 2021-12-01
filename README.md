@@ -20,7 +20,7 @@
 
 ## vimgolf(3)
 ---
-4GYPi// <Esc>WWCTODO<Esc>6GYPi// <Esc>WWCTODO<Esc>ZZ
+`4GYPi// <Esc>WWCTODO<Esc>6GYPi// <Esc>WWCTODO<Esc>ZZ`
 1) `4G` : 4
 36
 ---
