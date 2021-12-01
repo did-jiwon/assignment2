@@ -17,3 +17,9 @@
     * `g` -> 전체에 적용
 3) `ZZ` : 저장하고 나가기
 ---
+
+## vimgolf(3)
+---
+4GYPi// <Esc>WWCTODO<Esc>6GYPi// <Esc>WWCTODO<Esc>ZZ
+36
+---
