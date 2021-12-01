@@ -12,7 +12,8 @@
 
 ## vimgolf(2)
 ---
-1) `:%s/sublime\|emacs/vim/g` : `sublime`과 `emacs` 둘 다 `vim`으로 치환하는 것이기 때문에 `|(파이프)`를 사용하여 동시에 명령어 처리가 될 수 있다.
+1) `:%s/sublime\|emacs/vim/g`
+    * `sublime`과 `emacs` 둘 다 `vim`으로 치환하는 것이기 때문에 `|(파이프)`를 사용하여 동시에 명령어 처리가 될 수 있다.
     * `g` -> 전체에 적용
 3) `ZZ` : 저장하고 나가기
 ---
