@@ -9,7 +9,10 @@
 4) `""` 입력
 5) `ESC` : 일반 모드로 변환
 6) `ZZ` : 저장하고 나가기
+
+![vimgolf_1__1](https://user-images.githubusercontent.com/66530743/144410213-a5f9e169-b4ac-4bcc-ab99-2478eb58df2c.gif)
 ---
+
 
 ## vimgolf(2)
 ---
@@ -18,6 +21,9 @@
     * `sublime`과 `emacs` 둘 다 `vim`으로 치환하는 것이기 때문에 `|(파이프)`를 사용하여 동시에 명령어 처리가 될 수 있다.
     * `g` -> 전체에 적용
 3) `ZZ` : 저장하고 나가기
+
+![vimgolf(2)](https://user-images.githubusercontent.com/66530743/144412594-0208e5a0-882a-4b52-9119-4d514b073e14.gif)
+
 ---
 
 ## vimgolf(3)
@@ -30,11 +36,13 @@
 5) `//` : 주석 직접 입력(:norm :i//보다 입력수가 적기 때문에)
 6) `<Esc>` : 일반모드로 변환
 7) `W` : 오른쪽 한 단어의 끝 부분으로 커서 이동
-8) `C' : 현 커서에서 줄의 끝까지를 임의의 다른 내용으로 바꿈
+8) `C` : 현 커서에서 줄의 끝까지를 임의의 다른 내용으로 바꿈
 9) `TODO` : TODO 직접 입력
 10) `6G` : 6번째 줄로 이동
 11) 위와 똑같이 실행
 12) `ZZ` : 저장하고 나가기
+
+![vimgolf_3_](https://user-images.githubusercontent.com/66530743/144411289-7c7a6dbb-27b5-4248-bbaa-e96c05230f07.gif)
 ---
 
 ## vimgolf(4)
@@ -61,8 +69,10 @@
    14) `?k` : 뒤에서부터 k탐색(/k로 하면 4번째줄의 k로 이동하지만 ?k로 하면 3번째줄의 k로 이동해서 커서움직임을 줄일 수 있음)
    15) `rb rr rg` : k를 b,r,g로 바꾸기
    16) `ZZ` : 저장하고 나가기
----
    
+    ![vimgolf_4__1](https://user-images.githubusercontent.com/66530743/144410476-856cec29-60e5-42bf-bf1c-201eeaeabd3d.gif)
+---
+
 ## vimgolf(5)
 ---
 `5Gyw/"<CR>pa,name,age,score<Esc>ZZ` `27번`
@@ -74,4 +84,6 @@
    6) `,name,age,score` : 이들은 복사해서 붙여넣는 것보다 직접 입력하는 것이 입력 횟수가 더 적음
    7) `<Esc>` : 일반 모드로 변경
    8) `ZZ` : 저장하고 나가기
+   
+   ![vimgolf_5_](https://user-images.githubusercontent.com/66530743/144410552-eb2aa412-4e44-4e80-8d83-1838005002c4.gif)
 ---
