@@ -39,10 +39,11 @@
 
 ## vimgolf(4)
 ---
-`:%s/y1/abs(y1)/g<CR>/1<CR>r4<Up>r3<Up>r2<C-V><Down><Down>yn<C-V><Down><Down>p<C-V><Down><Down>yn<C-V><C-><Down><Down>p?k<CR>rb<Down>rr<Down>rgZZ` `60번`
+`:%s/y1/abs(y1)/g<CR>/1<CR>r4<Up>r3<Up>r2<C-V><Down><Down>yn<C-V><Down><Down>p<C-V><Down><Down>yn<C-V><Down><Down>p?k<CR>rb<Down>rr<Down>rgZZ` `59번`
+
 ![image](https://user-images.githubusercontent.com/66530743/144385868-758d197f-0522-4270-9fcd-8022cdb288fa.png)
 
-***많은 시도를 했지만 60번이 최대였습니다....***
+***많은 시도를 했지만 59번이 최대였습니다....***
 1) `:%s/y1/abs(y1)/g` : y1을 abs(y1)으로 바꿈
 2) `<CR>` : 엔터
 3) `/1<CR>` : 앞에서부터 1찾기, <CR> -> x1으로 커서 이동
@@ -56,8 +57,18 @@
    11) `<C-V><Down><Down>y` : 열(2,3,4)를 선택하여 다시 복사
       * 다시 복사하지않고 #1로 가서 붙여넣으면 복사가 되지 않았음
    12) `n` : 다음 1로 이동(3번째줄의 #1으로 이동)
-   13) `<C-V><C-><Down><Down>p` : 비주얼 블록모드로 선택 후 복사
+   13) `<C-V><<Down><Down>p` : 비주얼 블록모드로 선택 후 복사
    14) `?k` : 뒤에서부터 k탐색(/k로 하면 4번째줄의 k로 이동하지만 ?k로 하면 3번째줄의 k로 이동해서 커서움직임을 줄일 수 있음)
    15) `rb rr rg` : k를 b,r,g로 바꾸기
    16) `ZZ` : 저장하고 나가기
+---
+   
+## vimgolf(5)
+---
+`5Gyw/"<CR>pa,name,age,score<Esc>ZZ` `27번`
+   1) `5G` : 5번째 줄로 이동
+   2) `yw` : 현재 커서가 위치에서 오른쪽으로 한 단어를 임시 버퍼에 복사(student_id 복사)
+   3) `/" <CR>` : 앞에서부터 "을 찾고 그 위치로 이동
+   4) `p` : 붙여넣기(student_id)
+   5) `a` : 텍스트를 현재의 커서 위치 뒤에 추가(student_i***커서***d
 ---
