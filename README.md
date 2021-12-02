@@ -69,8 +69,9 @@
    14) `?k` : 뒤에서부터 k탐색(/k로 하면 4번째줄의 k로 이동하지만 ?k로 하면 3번째줄의 k로 이동해서 커서움직임을 줄일 수 있음)
    15) `rb rr rg` : k를 b,r,g로 바꾸기
    16) `ZZ` : 저장하고 나가기
+
+       ![vimgolf_4__1](https://user-images.githubusercontent.com/66530743/144410476-856cec29-60e5-42bf-bf1c-201eeaeabd3d.gif)
    
-    ![vimgolf_4__1](https://user-images.githubusercontent.com/66530743/144410476-856cec29-60e5-42bf-bf1c-201eeaeabd3d.gif)
 ---
 
 ## vimgolf(5)
